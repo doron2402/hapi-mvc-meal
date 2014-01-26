@@ -1,0 +1,12 @@
+{
+  "name": "myApp",
+  "description": "my HapiMeal App",
+  "version": "0.0.1-alpha",
+  "author": "Johnny <johnny@gmail.com>",
+  "main": "./server.js",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "hapi-meal": "*",
+    "path": "~0.4.9"
+  }
+}

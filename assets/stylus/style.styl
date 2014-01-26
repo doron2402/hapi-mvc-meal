@@ -1,0 +1,60 @@
+@import url("http://fonts.googleapis.com/css?family=Racing+Sans+One");
+
+$whiteColor = rgba(255, 255, 255, .5)
+$blueColor = rgba(20, 50, 65, .4)
+$blackColor = rgba(0, 0, 0, .5)
+
+html,
+body
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
+div.click
+  font: 1em/1em Racing Sans One;
+  text-transform: uppercase;
+  text-shadow: 0 0 .5rem rgb(60, 90, 120);
+  color: $blueColor;
+  background-color: rgb(255, 255, 255);
+  background: radial-gradient(circle, $whiteColor, transparent)
+  ,	linear-gradient($whiteColor 1px, transparent 1px)
+  ,	linear-gradient(90deg, $whiteColor 1px, transparent 1px)
+  ,	linear-gradient($whiteColor 1px, transparent 1px)
+  ,	linear-gradient(90deg, $whiteColor 1px, transparent 1px);
+  background-position: 50% 50%;
+  box-shadow: inset 0 0 5rem $blackColor;
+  background-size: cover
+  ,	5rem 5rem
+  ,	5rem 5rem
+  ,	1rem 1rem
+  ,	1rem 1rem;
+
+div.inverted
+  color: $whiteColor;
+  background-color: $blueColor;
+
+h1, h2
+  font-size: 5rem;
+
+h2
+  display: none;
+  font-family: Arial, Helvetica, "Helvetica Neue Light", sans-serif;
+
+div.inverted h1
+  display: none
+
+div.inverted h2
+  display: block
+
+div
+  display: table;
+  width: 100%;
+  height: 100%;
+
+div.row
+  display: table-row;
+
+div.cell
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
