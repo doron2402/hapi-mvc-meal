@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - hapi-meal > hapi > boom > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > catbox > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > catbox-memory > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > shot > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > nipple > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > nipple > boom > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > cryptiles > boom > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > iron > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > iron > boom > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
+    - hapi-meal > hapi > iron > cryptiles > boom > hoek:
+        patched: '2018-06-18T22:26:04.941Z'
