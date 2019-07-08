@@ -7,6 +7,12 @@
   "dependencies": {
     "lodash": "~2.4.1",
     "hapi-meal": "*",
-    "path": "~0.4.9"
-  }
+    "path": "~0.4.9",
+    "snyk": "^1.192.3"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
