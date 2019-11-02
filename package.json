@@ -5,7 +5,7 @@
   "author": "Johnny <johnny@gmail.com>",
   "main": "./server.js",
   "dependencies": {
-    "lodash": "~2.4.1",
+    "lodash": "~4.17.15",
     "hapi-meal": "*",
     "path": "~0.4.9"
   }
